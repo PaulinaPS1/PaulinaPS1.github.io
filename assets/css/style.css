@@ -1,0 +1,48 @@
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  /* FUENTE */
+  .marca{
+    font-family: 'Lobster', cursive;
+    
+  }
+   
+  
+  /* Hero Section */
+  
+  #Hero-Section{
+   background-image: url(../img/Fono.JPG);
+   background-position: left;
+   padding-block-start: 100%;
+   background-repeat: no-repeat;
+   height: 400px;
+  }
+
+
+  /* Mis trabajos */
+  
+  #Proyectos .image-top {
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Contacto */
+  
+  #Contacto form label {
+    font-weight: 700;
+    color: #373a3c;
+  }
+  
+  @media (max-width: 768px) {
+    #Contacto form label {
+      font-weight: 400;
+    }
+  
+    .navbar-brand{
+      width: 100px;
+    }
+  
+  }
+
